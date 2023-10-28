@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+a {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #0066CC;
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1000ms;
+    transform: translateY(0);
+    text-align: center; /* Centra el texto horizontalmente */
+    display: inline-block; /* Cambia a 'inline-block' */
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 125px;
+}
+
+.btn:hover {
+    width: 125px;
+    padding: 10px 30px;
+    transition: 1000ms;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}

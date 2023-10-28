@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyTube</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+
+    <ul class="list">
+        <li><a href="#" class="link">
+            Inicio</a></li>
+        <li><a href="#" class="link  ">
+            Servicios</a></li>
+        <li><a href="#" class="link">
+            Contacto</a></li>
+        <li><a href="https://www.tiktok.com/@xddron" class="link " target="_blank">
+            TikTok</a></li>
+    </ul>
+
+    <div class="container">
+        <h1>¡Bienvenido a PyTube!</h1>
+        <form id="form" method="post" action="/envia">
+            <input type="text" id="urlInput" required name="url" placeholder="Ingresa la URL del vídeo">
+            <div class="button-container">
+                <button type="submit" class="glow-on-hover" name="action" value="mp3">MP3</button>
+                <button type="submit" class="glow-on-hover" name="action" value="mp4">MP4</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
